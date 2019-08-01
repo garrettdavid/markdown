@@ -1,7 +1,7 @@
 {
   "name": "markdown",
   "version": "0.1.0",
-  "homepage": "https://garrettdavid.github.io/quote-v2",
+  "homepage": "https://garrettdavid.github.io/markdown",
   "private": true,
   "dependencies": {
     "marked": "^0.7.0",
@@ -33,6 +33,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.1.0"
   }
 }
