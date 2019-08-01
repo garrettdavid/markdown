@@ -1,5 +1,25 @@
-textarea {
+#editor {
     width: 65%;
-    margin: auto;
+    margin: 2% auto;
     display: block;
+    border: 2px solid #3B3355;
+    background-color: #FEFCFD;
+}
+
+#preview {
+    background-color: #FEFCFD;
+    border: 2px solid #3B3355;
+    width: 80%;
+    margin: 2% auto;
+    padding: 1% 3%;
+}
+
+.header {
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: #3B3355;
+}
+
+body {
+    background-color: #BFCDE0;
 }

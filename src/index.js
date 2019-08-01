@@ -31,6 +31,11 @@ class App extends React.Component {
 
 ## Sub Header
 
+1. foo 
+2. bar 
+3. baz
+
+**Code block:**
 \`\`\`
 function foo(a, b) {
     return a + b}
@@ -39,10 +44,6 @@ function foo(a, b) {
 **Inline code:** \`<img></img>\`
 
 >I am Groot -Groot
-
-1. foo 
-2. bar 
-3. baz
 
 ![test pic](https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg)
 
@@ -60,10 +61,10 @@ Rendered by [marked](https://marked.js.org/).`
     render() {
         return (
             <div className="app-container">
-                <h1>Markdown Previewer</h1>
-                <h2>Editor</h2>
+                <h1 class="header">Markdown Previewer</h1>
+                <h2 class="header">Editor</h2>
                 <Editor text={this.state.text} onChange={this.handleChange}/>
-                <h2>Preview</h2>
+                <h2 class="header">Preview</h2>
                 <Preview text={marked(this.state.text)}/>
             </div>
         );
